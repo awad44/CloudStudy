@@ -126,3 +126,36 @@ body.dark .icon-btn{background:#202e45;border-color:#3a4e6b}
 body.dark .icon-btn::before,body.dark .icon-btn::after{background:#b9c7dc}
 body.dark .icon-btn:hover{background:#2b3d5e;border-color:#6478c7;box-shadow:0 5px 16px #050a1766}
 body.dark .icon-btn:hover::before,body.dark .icon-btn:hover::after{background:#c7d0ff}
+
+
+/* Slightly larger reading text and a crisp vector brand mark. */
+.brand{font-size:20px}
+.brand-mark{overflow:hidden;padding:0;background:transparent}
+.brand-mark img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+.nav{font-size:15px}
+.hero-copy>p{font-size:17px}
+.hero-proof,.stats span{font-size:13px}
+.stats-note{font-size:12px}
+.section-heading p,.bottom-cta p{font-size:15px}
+.field-label{font-size:14px}
+.filter-chip{font-size:13px}
+.form-row label{font-size:12px}
+.form-row select{font-size:13px}
+.start-row strong,.text-button{font-size:12px}
+.lecture-meta{font-size:11px}
+.lecture-content h3{font-size:19px}
+.lecture-content>p{font-size:13px}
+.file-actions a,.preview-button,.mini-practice{font-size:12px}
+.privacy-note{font-size:12px}
+.quiz-question{font-size:23px}
+.option{font-size:14px;line-height:1.5}
+.tag{font-size:11px}
+.history-item,.result-row{font-size:13px}
+.button{font-size:15px}
+@media(max-width:760px){
+  body{font-size:16.5px}
+  .nav{font-size:12px}
+  .hero-copy>p{font-size:16px}
+  .quiz-question{font-size:21px}
+  .option{font-size:13.5px}
+}
